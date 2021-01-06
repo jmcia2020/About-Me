@@ -5,8 +5,8 @@ console.log ('And Java is LIVE!!!')
 var userName = prompt('What is your name?');
 console.log(userName);
 
-Greet the user
-alert('Hello ' + userName);
+// Greet the user
+alert('Hello ' + userName + '.' + 'Thanks for visitng my site');
 
 
 //Validate user input. 
@@ -15,10 +15,11 @@ console.log(toLowerCase);
 
 //Validate the input using conditional logic using strict equals.
 
-// if(condition){do something}else{do something else}
+if(condition){do something}else{do something else}
 
+if(familyPlan === 'Y' || 'Yes'){do something}else{do something else}
 
-// if(toLowerCase === 'craig' || toLowerCase === 'bob')//FALSE
+if(toLowerCase === 'craig' || toLowerCase === 'bob')//FALSE
 
 // //WILL NOT RUN
 // {

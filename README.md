@@ -1,10 +1,15 @@
-# LAB - Number
+# LAB - 02
 
 ## About Me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+Challenge:
+Create an About Me guessing game that utilizes HTML, CSS, & JavaScript.
 
-### Author: Student/Group Name
+Include on your HTML page a short biography, your education history, an overview of your job experience, and any goals that you may have.
+
+Prompt the user a total of exactly five yes or no questions. The user input for the answer must accept either y/n or yes/no responses while taking into consideration case sensitivity by normalizing the user input so that it can be validated 
+
+### Author: Jean McMahon
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
