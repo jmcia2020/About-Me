@@ -1,72 +1,65 @@
 * {outline-style: dashed; border-color: black;}
 
+h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;  
+  background-color: floralwhite;
+  font-size: 35px;
+}
 
-
+body {
+  background-color: floralwhite;
+  height: 200px;
+  width: 100% 
+  }
 
 
 header {
-  background-color: rgb(243, 16, 16);
-  color: beige;
-  height: 20px;
-  width: 100%;
-  padding-bottom: 5; 
-  }
-
-body{
-  height: 100px;
-  width: 100%px;
-  background-color: rgb(162, 245, 8);
+  background-color: rgb(9, 132, 136);
+  padding: 5px;
+  height: 40px;
+  width: 100% 
 }
-
-
-main {
-  height: 200px;
-  width: 100%;
-  background-color: rgb(226, 236, 238);
-}
-
-
 
 nav {
-  position: relative;
   height: 50px;
-  width: 100%;
-  background-color: rgb(46, 46, 54);
-}
-
-ul li {
-  display: inline;
-  color: rgba(42, 50, 53, 0.973);
-  padding: 2px;
-  background-color: rgb(51, 203, 230);
+  width: 100% 
 }
 
 
- */
-
-
-/* ol li {
-  margin-top: 40px;
-  display: inline;
-  color: whitesmoke;
-  border-radius: 10px;
+li {
+  display: inline-block;
+  background-color: rgb(88, 228, 233);    
+  color: #3a170f;
+  border: #3a170f;
   padding: 10px;
-  background-color: rgb(32, 190, 230);
+  text-decoration: none; 
 }
 
-footer{
-  height: 50px;
-  width: 100%
-  margin-top: 20px;
+li:hover{
+background-color: rgb(233, 66, 248);    color: white;
 }
 
-#another-style {
-  border: 5px solid rgb(151, 138, 138);
+section {
+border: rgb(128, 73, 0);
+height: 100px;
+width: 100% 
 }
 
-.more-styles {
-background-color: rgb(21, 255, 0);
-  color: rgb(19, 18, 18);
+p{
+background-color: lightcoral;
+}
 
-  
-} */
+footer {
+background-color: indigo;
+height: 40px;
+width: 100% 
+}
+
+li class:topTenIowa{
+block
+background-color: blueviolet; 
+padding: 20px
+}
+
+

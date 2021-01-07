@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 console.log ('And Java is LIVE!!!')
 
 // //prompt our user for input data
@@ -20,6 +20,10 @@ if(condition){do something}else{do something else}
 if(familyPlan === 'Y' || 'Yes'){do something}else{do something else}
 
 if(toLowerCase === 'craig' || toLowerCase === 'bob')//FALSE
+
+
+Q 6
+var userGuess - prompt('Pick )
 
 // //WILL NOT RUN
 // {
