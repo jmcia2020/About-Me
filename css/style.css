@@ -29,7 +29,7 @@ nav {
 
 li {
   display: inline-block;
-  background-color: rgb(88, 228, 233);    
+  background-color: rgb(100, 212, 216);    
   color: #3a170f;
   border: #3a170f;
   padding: 10px;
@@ -55,11 +55,14 @@ background-color: indigo;
 height: 40px;
 width: 100% 
 }
-
-li class:topTenIowa{
-block
-background-color: blueviolet; 
-padding: 20px
+ol{
+  list-style: decimal;
+}
+ol.topTenIowa li
+{
+display:block;
+padding: 10px;
+margin-left: 3px;
 }
 
 
