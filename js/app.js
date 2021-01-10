@@ -7,7 +7,13 @@ console.log(userName);
 // 
 // Greet the user
 alert
-('Hello ' + userName + '. Thanks for visitng my site.');
+('Hello ' + userName + '. Thank you for visitng my site.');
+
+// //Validate user input. 
+// var toLowerCase = userName.toLowerCase();
+// console.log(toLowerCase);
+
+// //Validate the input using conditional logic using strict equals.
 
 var siblings = 
 prompt('Do  you have siblings?').toLowerCase();
@@ -22,16 +28,16 @@ else if(siblings === 'n' || siblings === 'no')
   alert("Being an only child has it's advantages.");
 }
 // 
-var travel = prompt('Have you ever been to Germany?').toLowerCase();
+var travel = prompt('Have you ever been to Paris?').toLowerCase();
 console.log(travel);
 
 if(travel === 'y' || travel === 'yes')
 {
-  alert ("The people there are so nice!");
+  alert ("Then you understand why Pawnee is the Paris of America");
 }
 else
 {
-  alert ("There's always time for a new adventure!");
+  alert ("That's ok. You've seen Pawnee: The Paris of America.");
 }
 // 
 var catsDogs = prompt('Are you a cat or a dog person?').toLowerCase();
@@ -39,7 +45,7 @@ console.log(catsDogs);
 
 if(catsDogs === 'dog' || catsDogs ==='dogs')
 {
-  alert ("Me too!");
+  alert ("We have some dogs at the local shelter that could use a home.");
 }
 else if(catsDogs === 'cat' || catsDogs === 'cats')
 {
@@ -59,33 +65,37 @@ else
   alert("Adventure isn't for everyone when it comes to food.");
 }
 
-// 
-
-// //Validate user input. 
-// var toLowerCase = userName.toLowerCase();
-// console.log(toLowerCase);
-
-// //Validate the input using conditional logic using strict equals.
-
-
-// if(siblings === 'Y' || 'Yes'){do something}else{do something else}
-
-// if(toLowerCase === 'craig' || toLowerCase === 'bob')//FALSE
-
 
 // Q 6
-// var userGuess - prompt('Pick )
+//Guess Leslie's Age 
+
+var age = 34
+
+for (var i = 0; i < 4; i++){
+var ageAnswer = prompt('How old was Leslie Knope at the beginning of Parks & Rec?');
+
+if (ageAnswer === age)
+{
+  // alert
+  console.log("Congratulations! While a lady never tells her age, public records do. Leslie's age at the beginning of the show was 34.")
+correctanswers++
+break;
+}
+
+if (ageAnswer > 34) 
+{
+  //alert
+  console.log("Leslie isn't THAT old")
+} 
+else (ageAnswer < 34) 
+{
+//alert
+console.log("That guess is too low, but thank you!")
+}
+
+// Question 7
 
 // // //WILL NOT RUN
-// // {
-
-// //   alert('Welcome back to my page, ' + userName);
-
-// // } 
-
-
-// // //DO THIS
-// // else {
 
 
 // // logical operator example ---------------
