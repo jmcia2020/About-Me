@@ -73,57 +73,58 @@ else
 }
 
 
-// Q 6
-//Guess Leslie's Age 
+// // Q 6
+// //Guess Leslie's Age 
 
-var age = 34
+// var age = 34
 
-for 
-  (var i = 0; i < 4; i++)
-{
-var ageAnswer = prompt('How old was Leslie Knope at the beginning of Parks & Rec?');
+// for 
+//   (var i = 0; i < 4; i++)
+// {
+// var ageAnswer = prompt('How old was Leslie Knope at the beginning of Parks & Rec?');
 
-if (ageAnswer === age)
-{
-  alert 
-  ("Congratulations! While a lady never tells her age, public records do. Leslie's age at the beginning of the show was 34.")
+// if (ageAnswer === age)
+// {
+//   alert 
+//   ("Congratulations! While a lady never tells her age, public records do. Leslie's age at the beginning of the show was 34.")
 
-  console.log("Congratulations! While a lady never tells her age, public records do. Leslie's age at the beginning of the show was 34.")
-correctanswers++
-break;
-}
+//   console.log("Congratulations! While a lady never tells her age, public records do. Leslie's age at the beginning of the show was 34.")
+// correctanswers++
+// break;
+// }
 
-if (ageAnswer > 34) 
-{
-  alert("Leslie isn't THAT old")
-  console.log("Leslie isn't THAT old")
-} 
-else (ageAnswer < 34) 
-{
-alert("That guess is too low, but thank you!")
-console.log("That guess is too low, but thank you!")
-}
+// if (ageAnswer > 34) 
+// {
+//   alert("Leslie isn't THAT old")
+//   console.log("Leslie isn't THAT old")
+// } 
+// else (ageAnswer < 34) 
+// {
+// alert("That guess is too low, but thank you!")
+// console.log("That guess is too low, but thank you!")
+// }
 
-}
+// }
 
 
-// Question 7
-var userCorrect = false
+// // Question 7
+var userCorrect = false;
 
 var waffles = true;
-var breakfastFave = ['bacon', 'eggs', 'sausage', 'breakfast burrito', 'pancakes',
-'waffles', 'doughnuts'];
+var breakfastFave = 
+[
+  'bacon', 'eggs', 'sausage', 'breakfast burrito', 'pancakes','waffles', 'doughnuts'
+];
 
 var guesses = 0;
-
 
 while (guesses < 7) 
 {
 var breakfastFave = prompt( "What is Leslie Knope's favorite breakfast food on Parks & Rec?").toLowerCase();
 
-for (var i = 0; i < breakfastFave.length; i++) 
+for (var i = 0; i < breakfastFave.length; i++); 
 {
-if (breakfastFave === waffles[i])   
+if (breakfastFave === waffles[i]);   
 { 
 alert('You guessed it! ' + breakfastFave + ' are the BEST breakfast food!');
 console. log('User response is' + breakfastFave + 'to question 7');
