@@ -1,11 +1,13 @@
 "use strict";
 console.log ('And Java is LIVE!!!');
 
-// //prompt our user for input data
+//prompt our user for input data
+
 var userName = prompt('What is your name?');
 console.log(userName);
-// 
+ 
 // Greet the user
+
 alert
 ('Hello ' + userName + '. Thank you for visitng my site.');
 
@@ -33,23 +35,28 @@ console.log(travel);
 
 if(travel === 'y' || travel === 'yes')
 {
-  alert ("Then you understand why Pawnee is the Paris of America");
+  alert 
+  ("Then you understand why Pawnee is the Paris of America");
 }
 else
 {
-  alert ("That's ok. You've seen Pawnee: The Paris of America.");
+  alert 
+  ("That's ok. You've seen Pawnee: The Paris of America.");
 }
 // 
-var catsDogs = prompt('Are you a cat or a dog person?').toLowerCase();
+var catsDogs = 
+prompt('Are you a cat or a dog person?').toLowerCase();
 console.log(catsDogs);
 
 if(catsDogs === 'dog' || catsDogs ==='dogs')
 {
-  alert ("We have some dogs at the local shelter that could use a home.");
+  alert 
+  ("We have some dogs at the local shelter that could use a home.");
 }
 else if(catsDogs === 'cat' || catsDogs === 'cats')
 {
-  alert("I never had a kitty cat.");
+  alert
+  ("I never had a kitty cat.");
 }
 // 
 var sushi = prompt('Do you like sushi?').toLowerCase();
@@ -71,12 +78,15 @@ else
 
 var age = 34
 
-for (var i = 0; i < 4; i++){
+for (var i = 0; i < 4; i++)
+
 var ageAnswer = prompt('How old was Leslie Knope at the beginning of Parks & Rec?');
 
 if (ageAnswer === age)
 {
-  // alert
+  alert 
+  ("Congratulations! While a lady never tells her age, public records do. Leslie's age at the beginning of the show was 34.")
+
   console.log("Congratulations! While a lady never tells her age, public records do. Leslie's age at the beginning of the show was 34.")
 correctanswers++
 break;
@@ -84,16 +94,65 @@ break;
 
 if (ageAnswer > 34) 
 {
-  //alert
+  alert("Leslie isn't THAT old")
   console.log("Leslie isn't THAT old")
 } 
 else (ageAnswer < 34) 
 {
-//alert
+alert("That guess is too low, but thank you!")
 console.log("That guess is too low, but thank you!")
 }
 
+
+
+
 // Question 7
+var userCorrect = false
+
+var waffles = true;
+var breakfastFave = ['bacon', 'eggs', 'sausage', 'breakfast burrito', 'pancakes',
+'waffles', 'doughnuts'];
+
+var guesses = 0;
+
+
+while (guesses < 7) 
+{
+var breakfastFave = prompt( "What is Leslie Knope's favorite breakfast food on Parks & Rec?").toLowerCase();
+
+for (var i = 0; i < breakfastFave.length; i++) 
+{
+if (breakfastFave === waffles[i]   
+{  
+alert('You guessed it! ' + breakfastFave + ' are the BEST breakfast food!');
+console. log('User response is' + breakfastFave + 'to question 7');
+
+guesses = 7;
+correctAnswers++;
+userCorrect = true
+break;
+}
+}
+
+if(guesses !== 7) 
+  {
+  alert("All breakfast food is great, but that's not my favorite.")
+  console.log('User response is' + breakfastFave + 'to question 7');
+  quesses++;
+  }
+
+  {
+   alert ('Good job' + userName + '. You scored a total of ' + correctAnwers + 'out of 7.')
+   console.log ('Good job' + userName + '. You scored a total of ' + correctAnwers + 'out of 7.')
+  }
+ 
+//   
+
+
+  
+  
+  
+
 
 // // //WILL NOT RUN
 
@@ -127,8 +186,4 @@ console.log("That guess is too low, but thank you!")
 // // } else {
 // //   alert('nope we reached the else statement.');
 // //   console.log('There were no true values');
-// // }
-
-
-
-
+// 
