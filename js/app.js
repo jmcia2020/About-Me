@@ -78,8 +78,9 @@ else
 
 var age = 34
 
-for (var i = 0; i < 4; i++)
-
+for 
+  (var i = 0; i < 4; i++)
+{
 var ageAnswer = prompt('How old was Leslie Knope at the beginning of Parks & Rec?');
 
 if (ageAnswer === age)
@@ -103,7 +104,7 @@ alert("That guess is too low, but thank you!")
 console.log("That guess is too low, but thank you!")
 }
 
-
+}
 
 
 // Question 7
@@ -122,8 +123,8 @@ var breakfastFave = prompt( "What is Leslie Knope's favorite breakfast food on P
 
 for (var i = 0; i < breakfastFave.length; i++) 
 {
-if (breakfastFave === waffles[i]   
-{  
+if (breakfastFave === waffles[i])   
+{ 
 alert('You guessed it! ' + breakfastFave + ' are the BEST breakfast food!');
 console. log('User response is' + breakfastFave + 'to question 7');
 
@@ -131,7 +132,6 @@ guesses = 7;
 correctAnswers++;
 userCorrect = true
 break;
-}
 }
 
 if(guesses !== 7) 
@@ -145,7 +145,7 @@ if(guesses !== 7)
    alert ('Good job' + userName + '. You scored a total of ' + correctAnwers + 'out of 7.')
    console.log ('Good job' + userName + '. You scored a total of ' + correctAnwers + 'out of 7.')
   }
- 
+  }
 //   
 
 
