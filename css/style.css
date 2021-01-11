@@ -30,8 +30,6 @@ nav {
 li {
   display: inline-block;
   background-color: rgb(100, 212, 216);    
-  color: #3a170f;
-  border: #3a170f;
   padding: 10px;
   text-decoration: none; 
 }
@@ -50,7 +48,6 @@ width: 100%
   display: block;
   background-color: lightcoral;
   height:2em
-  border
   padding: 50px;
   }
 
