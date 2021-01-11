@@ -35,7 +35,13 @@ li {
 }
 
 li:hover{
-background-color: rgb(233, 66, 248);    color: white;
+background-color: #e97877;    
+color: white;
+}
+
+image {
+ height: 300px;
+ width: auto;
 }
 
 section {
