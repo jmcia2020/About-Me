@@ -1,15 +1,18 @@
 h1 {
+  margin-left: 20px;
   padding-top: 25px;
   padding-bottom: 25px;  
   background-color: floralwhite;
-  font-size: 35px;
+  font-size: 45px;
   font-family: ArchivoBlack;
+  font-weight: bolder;
+  color: indigo;
 } 
 
 body {
   background-color: floralwhite;
   height: 200px;
-  }
+}
 
 
 header {
@@ -37,31 +40,24 @@ background-color: #e97877;
 color: white;
 }
 
+p{
+  text-align: center;
+}
+
 img {
- height: 450px;
- width: auto;
+ width: 30%;
  margin: 10px;
+ border: 5px solid indigo;
 }
 
-
-bio{
-  line-height:2em;
-  float: left;
+section{
+  float:left;
 }
 
-/* p{
-  
-} */
-
-footer {
-  clear:both;
-  background-color: indigo;
-  height: 40px;
-  width: 100%; 
-}
 ol{
   list-style: decimal;
-  float: left;
+  float: right;
+  border: 5px solid indigo;
 }
 ol.topTenIowa li
 {
@@ -70,4 +66,12 @@ padding: 10px;
 margin-left: 3px;
 }
 
+footer {
+  clear:both;
+  background-color: indigo;
+  border-top: 5px solid #5292CA;
+  border-bottom: 5px solid #5292CA;
+  height: 40px;
+  width: 100%; 
+}
 
